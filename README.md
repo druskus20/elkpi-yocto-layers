@@ -6,6 +6,8 @@ Repo Manifest file for building Elk Audio OS Images for the Elk Pi Development K
 
 In order to use the manifest file, you need to install Google's `repo` tool. Installation instructions can be found [here](https://gerrit.googlesource.com/git-repo).
 
+In order to build the image, you need to install `bitbake`.
+
 You will also need a host Linux machine with a reasonably recent distribution and at least 50 GB of disk space available. Check the [official Yocto requirements](https://www.yoctoproject.org/docs/latest/ref-manual/ref-manual.html#ref-manual-system-requirements) for more details.
 [Docker](https://www.docker.com/) can be used for building under Windows / macOS without installing a Linux Virtual Machine, although there will still be a non-negligible impact on build times compared to native Linux builds. Another popular option is to host the build environment on the cloud using Amazon's EC2 instances, Microsoft Azure or similar services.
 
